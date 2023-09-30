@@ -12,6 +12,8 @@ docker exec -it api /bin/zsh
 go run ./main.go
 ```
 
+You can check the routes file to see which endpoints can be visited. I might put up Swagger sometime in the future.
+
 I used Gin and GORM to set up the initial codebase. Both are the most popular Go solutions to common infrastructure/ORM problems.
 
 A lot of the code was originally taken from [this article](https://tanmay-vaish.hashnode.dev/how-to-implement-authentication-and-authorization-in-golang) by Tanmay Vaish.
