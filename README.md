@@ -1,4 +1,4 @@
-# Go Playgronud
+# Go Playground
 You'll need Docker Compose.
 
 Setting up:
@@ -12,11 +12,11 @@ docker exec -it api /bin/zsh
 go run ./main.go
 ```
 
-You can check the routes file to see which endpoints can be visited. I might put up Swagger sometime in the future.
+You can check the routes file to see the available endpoints. I will probably put up Swagger sometime in the future.
 
-I used Gin and GORM to set up the initial codebase. Both are the most popular Go solutions to common infrastructure/ORM problems.
+I used Gin and GORM to set up the initial codebase. Both are the most popular Go solutions for common infrastructure/ORM problems.
 
-A lot of the code was originally taken from [this article](https://tanmay-vaish.hashnode.dev/how-to-implement-authentication-and-authorization-in-golang) by Tanmay Vaish.
+The authentication code is originally taken from [this article](https://tanmay-vaish.hashnode.dev/how-to-implement-authentication-and-authorization-in-golang) by Tanmay Vaish.
 
 Tests are done thanks to [the manual](https://go.dev/doc/tutorial/add-a-test) and [TableDrivenTests](https://github.com/golang/go/wiki/TableDrivenTests).
 
