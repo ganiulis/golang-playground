@@ -1,7 +1,7 @@
 # go-ticket
+You'll need Docker Compose.
 
-Everything is a draft. It always was; it always will.
-
+Setting up:
 ```sh
 docker-compose up -d --build
 
@@ -19,6 +19,8 @@ A lot of the code was originally taken from [this article](https://tanmay-vaish.
 Tests are done thanks to [the manual](https://go.dev/doc/tutorial/add-a-test) and [TableDrivenTests](https://github.com/golang/go/wiki/TableDrivenTests).
 
 The project layout is still unfinished. Current inspiration can be found in [this repository](https://github.com/golang-standards/project-layout/tree/master).
+
+Everything is a draft. It always was; it always will be.
 
 ## Sources
 1. https://hub.docker.com/_/golang
