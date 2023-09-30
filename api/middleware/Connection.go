@@ -31,7 +31,7 @@ func InitDB(cfg Config) {
 		panic(err)
 	}
 
-	fmt.Println("Migrated database")
+	fmt.Println("Migrated database.")
 
 	DB = db
 }

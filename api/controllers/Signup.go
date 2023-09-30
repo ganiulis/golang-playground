@@ -26,7 +26,7 @@ func Signup(c *gin.Context) {
 	}
 
 	var errHash error
-	user.Password, errHash = middleware.GenerateHashPassword(user.Password)
+	user.Password, errHash = middleware.HashPassword(user.Password)
 
 	if errHash != nil {
 		c.JSON(500, gin.H{"error": "could not generate password hash"})

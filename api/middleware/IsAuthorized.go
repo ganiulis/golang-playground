@@ -17,6 +17,7 @@ func IsAuthorized() gin.HandlerFunc {
 		if err != nil {
 			c.JSON(401, gin.H{"error": "unauthorized"})
 			c.Abort()
+
 			return
 		}
 
