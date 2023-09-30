@@ -22,7 +22,7 @@ Tests are done thanks to [the manual](https://go.dev/doc/tutorial/add-a-test) an
 
 The project layout is still unfinished. Current inspiration can be found in [this repository](https://github.com/golang-standards/project-layout/tree/master).
 
-Everything is a draft. It always was; it always will be.
+[Everything is a draft. It always was; it always will be.](https://www.youtube.com/watch?v=u1FZz7R3kUo)
 
 ## Sources
 1. https://hub.docker.com/_/golang
