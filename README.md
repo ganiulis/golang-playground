@@ -1,4 +1,4 @@
-# go-ticket
+# Go Playgronud
 You'll need Docker Compose.
 
 Setting up:
